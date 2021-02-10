@@ -1,0 +1,204 @@
+:root {
+  --footer-background-color: #2f303a;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --section-background-color: #f5f4fa;
+  --logo-font-color: #000000;
+  --main-text-color: #212121;
+  --main-color: #ffffff;
+  --secondary-text-color: #757575;
+  --secondary-color: #2196f3;
+  --project-background-color: #eeeeee;
+  --text-shadow-color: rgba(0, 0, 0, 0.25);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.header-logo {
+  font-family: Raleway, Oleo Script;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
+  text-shadow: 0px 4px 4px var(--text-shadow-color);
+}
+.header-logo-studio {
+  color: var(--logo-font-color);
+}
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.header-nav-link.current {
+  color: var(--secondary-color);
+}
+.header-contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--secondary-color);
+}
+.hero,
+footer {
+  background-color: var(--footer-background-color);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.hero-button {
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.features-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+.features-description {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+.team {
+  background-color: var(--section-background-color);
+}
+
+.team-heading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--main-text-color);
+  text-shadow: 0px 4px 4px var(--text-shadow-color);
+}
+
+.team-description {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--secondary-text-color);
+  text-shadow: 0px 4px 4px var(--text-shadow-color);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--secondary-color);
+}
+
+.footer-logo-studio {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--main-color);
+}
+
+address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-color);
+  font-style: normal;
+}
+
+.address-link {
+  color: var(--footer-text-color);
+}
+
+.button-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--main-text-color);
+  background-color: var(--section-background-color);
+  border: none;
+  border-radius: 4px;
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), */
+  /* 0px 2px 2px rgba(0, 0, 0, 0.12); */
+}
+.button-filter:hover {
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), */
+  /* 0px 2px 2px rgba(0, 0, 0, 0.12); */
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--main-text-color);
+}
+
+.project-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+  text-align: left;
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text-color);
+  text-align: left;
+}
+
+.hidden-heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
